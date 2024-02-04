@@ -110,10 +110,13 @@ fi
 # フォルダ作成＆移動
 sudo mkdir -p /usr/local/libexec/docker/cli-plugins
 cd /usr/local/libexec/docker/cli-plugins
+
 # https://github.com/docker/compose/releases にアクセスして最新を調べて、バージョンを調査
 DOCKER_COMPOSE_VERSION=v2.24.5
+
 # compose の実行ファイルを取得
 sudo curl -L https://github.com/docker/compose/releases/download/${DOCKER_COMPOSE_VERSION}/docker-compose-linux-x86_64 -o docker-compose
+
 # 権限変更
 sudo chmod +x docker-compose
 ```
