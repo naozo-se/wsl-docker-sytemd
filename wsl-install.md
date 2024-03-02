@@ -51,6 +51,8 @@ sudo /usr/libexec/nslogin
 systemctl start docker
 # dockerを自動起動設定
 systemctl enable docker
+# root権限を終了する
+exit
 ```
 
 ## vimインストール
