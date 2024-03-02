@@ -64,7 +64,7 @@ sudo apt install -y vim
 ```bash
 sudo vi /etc/profile.d/00-wsl-systemd.sh
 ```
-###### ※編集内容
+###### ※編集内容(対象のファイルがない場合は、追加の部分のみを記載して保存)
 ```bash:/etc/profile.d/00-wsl-systemd.sh
 # If not running interactively, don't do anything
 case $- in
